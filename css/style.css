@@ -20,8 +20,9 @@ header {
     height: 60px;
     background-color: #ff6900;
     width: 100%;
-    position: sticky;
+    position: fixed;
     box-shadow: 0px 0px 5px;
+    z-index: 1000;
 
 }
 
@@ -51,14 +52,154 @@ a {
 }
 
 main {
-    padding-top: 3rem;
+    padding-top: 7rem;
     gap: 2px;
 }
 
 .cards {
+    display: flex;
+    flex-direction: column;
     width: 345px;
+    height: 580px;
+    position: relative;
 }
 
 .item-sell {
     width: 100%;
+}
+
+#levis {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/1.webp);
+    background-size: 100%;
+
+}
+
+#levis:hover {
+    background-image: url(../img/1b.webp);
+    background-size: 100%;
+}
+
+#zucchero {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/3.webp);
+    background-size: 100%;
+
+}
+
+#zucchero:hover {
+    background-image: url(../img/3b.webp);
+    background-size: 100%;
+}
+
+#guess {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/2.webp);
+    background-size: 100%;
+
+}
+
+#guess:hover {
+    background-image: url(../img/2b.webp);
+    background-size: 100%;
+}
+
+#levis-2 {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/4.webp);
+    background-size: 100%;
+
+}
+
+#levis-2:hover {
+    background-image: url(../img/4b.webp);
+    background-size: 100%;
+}
+
+#maya {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/5.webp);
+    background-size: 100%;
+
+}
+
+#maya:hover {
+    background-image: url(../img/5b.webp);
+    background-size: 100%;
+}
+
+#espirit {
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-image: url(../img/6.webp);
+    background-size: 100%;
+
+}
+
+#espirit:hover {
+    background-image: url(../img/6b.webp);
+    background-size: 100%;
+}
+
+h4 {
+    font-size: 11px;
+    font-weight: 200;
+    padding-top: 2px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 11px;
+}
+
+mark {
+    background-color: white;
+}
+
+.sales {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 40px;
+    height: 20px;
+    padding-top: 4px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 450px;
+}
+
+.heart {
+    position: absolute;
+    z-index: 50;
+    right: 0;
+    top: 10px;
+    text-align: center;
+}
+
+h6 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 28px;
+    padding-top: 5px;
+}
+
+h6:hover {
+    cursor: pointer;
+    color: red;
 }
