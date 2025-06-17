@@ -230,3 +230,10 @@ h6:hover {
     cursor: pointer;
     color: red;
 }
+
+footer {
+    background-color: #1a1a1a;
+    height: 80px;
+    color: white;
+    line-height: 25px;
+}
