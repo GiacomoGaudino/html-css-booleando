@@ -180,7 +180,34 @@ mark {
     color: white;
     font-weight: 600;
     position: absolute;
-    top: 450px;
+    top: 445px;
+}
+
+.sostenibilità {
+    display: flex;
+    justify-content: center;
+    background-color: #008000;
+    width: 80px;
+    height: 20px;
+    padding-top: 4px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 445px;
+    left: 42px;
+}
+
+.sostenibilità-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #008000;
+    width: 80px;
+    height: 20px;
+    padding-top: 4px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 445px;
 }
 
 .heart {
