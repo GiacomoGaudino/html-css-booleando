@@ -9,21 +9,13 @@ body {
     position: relative;
 }
 
+/* #region utilities */
+
 .container {
     max-width: 1200px;
     width: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-header {
-    height: 60px;
-    background-color: #ff6900;
-    width: 100%;
-    position: fixed;
-    box-shadow: 0px 0px 5px;
-    z-index: 1000;
-
 }
 
 .c-flex {
@@ -40,80 +32,6 @@ header {
     font-size: 14px;
     color: white;
     cursor: pointer;
-}
-
-.logo {
-    width: 110px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-}
-
-main {
-    padding-top: 7rem;
-    gap: 2px;
-}
-
-.cards {
-    display: flex;
-    flex-direction: column;
-    width: 345px;
-    height: 580px;
-    position: relative;
-}
-
-.item-sell {
-    width: 100%;
-}
-
-.under {
-    position: relative;
-    z-index: 1;
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-size: 100%;
-
-}
-
-.over {
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-size: 100%;
-}
-
-a:hover .over {
-    z-index: 1;
-}
-
-a:hover .under {
-    z-index: 0;
-}
-
-h4 {
-    font-size: 11px;
-    font-weight: 200;
-    padding-top: 2px;
-}
-
-h3 {
-    font-size: 12px;
-}
-
-p {
-    font-size: 11px;
-}
-
-mark {
-    background-color: white;
 }
 
 .sales {
@@ -180,9 +98,107 @@ button:hover {
     color: red;
 }
 
+/* #endregion utilities */
+
+/* #region header */
+
+header {
+    height: 60px;
+    background-color: #ff6900;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 0px 5px;
+    z-index: 1000;
+
+}
+
+.logo {
+    width: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* #endregion header */
+
+main {
+    padding-top: 7rem;
+    gap: 2px;
+}
+
+/* #region cards */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 580px;
+    position: relative;
+}
+
+.item-sell {
+    width: 100%;
+}
+
+.under {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-size: 100%;
+
+}
+
+.over {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 345px;
+    height: 500px;
+    background-size: 100%;
+}
+
+a:hover .over {
+    z-index: 1;
+}
+
+a:hover .under {
+    z-index: 0;
+}
+
+h4 {
+    font-size: 11px;
+    font-weight: 200;
+    padding-top: 2px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 11px;
+}
+
+mark {
+    background-color: white;
+}
+
+/* #endregion cards */
+
+/* #region footer */
+
 footer {
     background-color: #1a1a1a;
     height: 80px;
     color: white;
     line-height: 25px;
 }
+
+/* #endregion footer */
