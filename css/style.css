@@ -39,6 +39,7 @@ header {
     gap: 7px;
     font-size: 14px;
     color: white;
+    cursor: pointer;
 }
 
 .logo {
