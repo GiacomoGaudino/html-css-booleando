@@ -218,15 +218,15 @@ mark {
     text-align: center;
 }
 
-h6 {
+button {
     width: 40px;
     height: 40px;
     background-color: white;
     font-size: 28px;
-    padding-top: 5px;
+    border: none;
 }
 
-h6:hover {
+button:hover {
     cursor: pointer;
     color: red;
 }
