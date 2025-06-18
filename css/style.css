@@ -68,88 +68,33 @@ main {
     width: 100%;
 }
 
-#levis {
+.under {
+    position: relative;
+    z-index: 1;
     display: block;
     width: 345px;
     height: 500px;
-    background-image: url(../img/1.webp);
     background-size: 100%;
 
 }
 
-#levis:hover {
-    background-image: url(../img/1b.webp);
-    background-size: 100%;
-}
-
-#zucchero {
+.over {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
     display: block;
     width: 345px;
     height: 500px;
-    background-image: url(../img/3.webp);
-    background-size: 100%;
-
-}
-
-#zucchero:hover {
-    background-image: url(../img/3b.webp);
     background-size: 100%;
 }
 
-#guess {
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-image: url(../img/2.webp);
-    background-size: 100%;
-
+a:hover .over {
+    z-index: 1;
 }
 
-#guess:hover {
-    background-image: url(../img/2b.webp);
-    background-size: 100%;
-}
-
-#levis-2 {
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-image: url(../img/4.webp);
-    background-size: 100%;
-
-}
-
-#levis-2:hover {
-    background-image: url(../img/4b.webp);
-    background-size: 100%;
-}
-
-#maya {
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-image: url(../img/5.webp);
-    background-size: 100%;
-
-}
-
-#maya:hover {
-    background-image: url(../img/5b.webp);
-    background-size: 100%;
-}
-
-#espirit {
-    display: block;
-    width: 345px;
-    height: 500px;
-    background-image: url(../img/6.webp);
-    background-size: 100%;
-
-}
-
-#espirit:hover {
-    background-image: url(../img/6b.webp);
-    background-size: 100%;
+a:hover .under {
+    z-index: 0;
 }
 
 h4 {
@@ -181,6 +126,7 @@ mark {
     font-weight: 600;
     position: absolute;
     top: 445px;
+    z-index: 40;
 }
 
 .sostenibilità {
@@ -195,6 +141,7 @@ mark {
     position: absolute;
     top: 445px;
     left: 42px;
+    z-index: 40;
 }
 
 .sostenibilità-2 {
@@ -208,6 +155,7 @@ mark {
     font-weight: 600;
     position: absolute;
     top: 445px;
+    z-index: 40;
 }
 
 .heart {
